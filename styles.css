@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.75rem;
+    background-color: #f2e1d5;
+    color: hsl(0, 2%, 20%);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-container {
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title  {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.omelette-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    color: hsl(0, 2%, 20%);
+    padding: 10px 0 10px 0;
+}
+
+.prep-time {
+    border: none;
+    border-radius: 5px;;
+    background-color: #fff1fa;
+}
+
+h3 {
+    padding: 20px;
+    color: rgb(103, 54, 92);
+}
+
+.bullet-prep  {
+    padding: 0 0 10px 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-color {
+    font-weight: bold;
+    color: maroon !important;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(105, 69, 69);
+    padding: 20px 0 0 0;
+}
+
+.bullet-points {
+    padding: 10px 0 0 20px;
+}
+
+
+
+.bullet-points li:last-child {
+    padding-bottom: 25px;
+}
+
+.ingredients {
+    border-bottom: 2px solid hsla(0, 0%, 50%, 0.105);
+}
+
+.instructions {
+    border-bottom: 2px solid hsla(0, 0%, 50%, 0.105);
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition table td {
+    padding: 10px;
+    color:  hsl(0, 2%, 20%);
+    border-bottom: 2px solid hsla(0, 0%, 50%, 0.105);
+}
+
+.p-nut {
+    padding-top: 10px;
+}
+
+.nutrition table tr:last-child td {
+    border-bottom: none;
+}
+
+@media (min-width: 380px) {   
+    .recipe-container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-title {
+        padding-bottom: 0;
+    }
+    h1 {
+        padding: 30px;
+        font-size: 2.5rem;
+    }
+    
+    p {
+        padding: 0 30px 30px 30px;
+        font-weight: lighter;
+    }
+
+    .prep-time, .ingredients, .instructions, .nutrition{
+        padding: 0 30px;
+    }
+
+    .nutrition {
+        padding-bottom: 30px;
+    }
+
+    body {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
